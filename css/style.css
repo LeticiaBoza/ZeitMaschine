@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    --dark-blue: #1d2337;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Navbar */
+  
+  .title-nav{
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .title-um, .title-dois {
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title-um{
+    font-size: 30px;
+  }
+  
+  .title-dois{
+    font-size: 20px;
+  }
+  
+  .navbar-brand{
+    display: flex;
+  } 
+  
+  #navbar-items .navbar-nav{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+  }
+  
+  .nav-link{
+    color: white !important;
+    font-size: 14px;
+  }
+  
+  #navbar li a:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  
+  #navbar-items .nav-item{
+    margin: 0 0.4em;
+  }
+  
+  .navbar-brand img{
+    width: 30%;
+  }
+  
+  .nav-color {
+    background-color: #1d2337;
+  }
+  
+  /* Section */
+  
+  #master-time, #portable, #tecnology, #design, #batery{
+    padding: 100px 0;
+  }
+  
+  section {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+  }
+  #master-time {
+    margin-top: 200px;
+  }
+  .register {
+    padding: 0.6em 1.2em;
+    outline: 0;
+    border: 1px solid var(--dark-blue);
+    border-radius: 10px;
+    background-color: white;
+    color: var(--dark-blue);
+    transition: 1s;
+  }
+  .register:hover {
+    background-color: var(--dark-blue);
+    color: white;
+  }
+  
+  .image-product {
+    width: 391px;
+    height: 329px;
+    object-fit: cover;
+    transition: all 0.2s linear;
+  }
+  .image-product:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Form */
+  
+  #cadastro { 
+    background-color: #1d2337;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 100px;
+  }
+  form .inputsForm {
+    width: 40%;
+    margin: 0 auto;
+  }
+  form .inputsForm input {
+    width: 100%;
+    padding: 10px 45px 10px 10px;
+    border: 0;
+    outline: 0;
+  }
+  form .inputsTerms {
+    margin-top: 50px;
+  }
+  .submitBtn {
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 0.6em 1.2em;
+    border: 1px solid white;
+    background-color: var(--dark-blue);
+    color: white;
+    transition: 1s ease-in-out;
+  }
+  .submitBtn:hover {
+    background-color: white;
+    border: 1px solid var(--dark-blue);
+    color: var(--dark-blue);
+    transition: 1s ease-in-out;
+  }
+  
+  .inputsTerms a{
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .inputsTerms a:hover{
+    color: rgba(255, 255, 255, 0.767);
+    transition: 0.4s ease-in-out;
+  }
+  
+  /* Form Select */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 0;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  .select {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: 0.25em;
+  }
+  select {
+    flex: 1;
+    padding: 0 0.5em;
+  }
+  .select::after {
+    content: '\25BC';
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 10px;
+    background: #000;
+    cursor: pointer;
+    pointer-events: none;
+    transform: 0.25s all ease;
+  }
+  
+  /*Footer*/
+  
+  #footer{
+    border-top: 1px solid #1d2337;
+  }
+  
+  /*footer top*/
+  #footer{
+    padding: 3em 2em;
+  }
+  
+  #footer-top{
+    margin-bottom: 2em;
+  }
+  
+  #footer-top, #footer-top i{
+    color:#1d2337;
+  }
+  
+  #social-icons{
+    text-align: right;
+  }
+  
+  #social-icons i{
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+  }
+  #social-icons i:hover{
+    color: #1d2337c9;
+    transition: 0.8s ease-in-out;
+  }
+  
+  /*Footer detalhes*/
+  
+  #footer-details{
+    margin-bottom: 3em;
+  }
+  
+  #news-container, #contact-container, #links-container{
+    margin-bottom: 2em;
+  }
+  
+  #news-container{
+    padding-right: 2.5em;
+    padding-left: 1.5em;
+  }
+  
+  #contact-container{
+    border-right: 1px solid #1d2337;
+    border-left: 1px solid #1d2337;
+  }
+  
+  #contact-container img{
+    width: 65%;
+  }
+  
+  .payment-image {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  #links-container{
+    padding-left: 2.5em;
+  }
+  
+  #links-container h4{
+    font-size: 1.4em;
+  }
+  
+  #footer-details h4{
+    color:#1d2337;
+    margin-bottom: 1.5em;
+  }
+  
+  #news-container input{
+    border: none;
+  }
+  
+  #links-container li{
+    margin-bottom: 0.5em;
+  }
+  
+  #links-container a{
+    text-decoration: none;
+    color:#1d2337;
+  }
+  
+  #links-container a:hover{
+    color:#1d2337c9;
+    font-size: 1.2em;
+  }
+   
+  .form-contact{
+    padding-top: 10em;
+  }
+  
+  #form-footer input{
+    border: 1px solid #1d2337;
+  }
+  
+  #form-footer button{
+    margin-top: 1.5em;
+    padding: 0.6em 1.2em;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    background-color: #1d2337;
+    transition: 1s;
+  }
+  
+  #form-footer button:hover{
+    background-color: #1d2337c9;
+    transition: 1s;
+  }
+  
+  /*Footer bottom*/
+  #footer-bottom{
+    border-top: 1px solid #1d2337;
+    padding-top: 2em;
+    font-size: 0.9em;
+  }
+  
+  #footer-bottom i{
+    color:#1d2337;
+    margin-left: 0.3em;
+  }
+  
+  #direitos p{
+    text-align: right;
+  }
+  
+  /*termos de uso*/
+  
+  #useTermos{
+    margin-top: 180px;
+  }
+  
+  #useTermos h1{
+    margin-bottom: 70px;
+  }
+  
+  #useTermos h2{
+    margin: 45px 0;
+  }
+  
+  #useTermos h3{
+    margin: 30px;
+  }
+  
+  
+  /*Quem somos*/
+  .about-title {
+    margin-top: 180px;
+    text-align: center;
+  }
+  main {
+    margin-top: 50px;
+    display: flex;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .about-team {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .about-team h2 {
+    font-size: 25px;
+    margin: 15px 0;
+  }
+  .about-team p {
+    text-align: center;
+    padding: 30px;
+    background-color: var(--dark-blue);
+    color: white;
+  }
+  .about-contact {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  .about-contact input {
+    padding: 10px 40px 10px 10px;
+    margin: 15px 0;
+    outline: 0;
+  }
+  
+  /* Animations */
+  @keyframes zoomAnimation {
+  
+  }

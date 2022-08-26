@@ -1,0 +1,241 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  
+  #feleri{
+    background-image: url(./../imgfeleri/feleri1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20% 0 10% 0;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  #text-feleri p, #text-projeto p, #text-historia p, #text-contato p, #text-time p{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 0;
+  }
+  
+  #text-feleri h1, #text-projeto h2, #text-historia h2, #text-contato h2, #text-time h2{
+    color: white;
+    text-transform: lowercase;
+    font-weight: lighter;
+    letter-spacing: 0;
+  }
+  
+  #text-feleri h1{
+    font-size: 85px;
+  }
+  
+  #text-feleri{
+    padding-bottom: 95px;
+  }
+  
+  #social-icons{
+    color: white;
+    letter-spacing: 16px ;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #social-icons i{
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+  }
+  
+  #social-icons i:hover{
+    color: rgba(255, 255, 255, 0.815);
+    transition: 0.8s ease-in-out;
+    font-size: 38px;
+  }
+  
+  #projetos{
+    background-image: url(./../imgfeleri/feleri2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20% 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+  }
+  
+  #text-projeto h2{
+    font-size: 85px;
+  }
+  
+  #historia{
+    background-image: url(./../imgfeleri/feleri3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20% 0;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  #text-historia h2{
+    font-size: 75px;
+  }
+  
+  #contato{
+    background-image: url(./../imgfeleri/feleri4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20% 0;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    text-align:right;
+  }
+  
+  #text-contato h2{
+    font-size: 80px;
+  }
+  
+  #time{
+    background-image: url(./../imgfeleri/feleri5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20% 0;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  #text-time h2{
+    font-size: 75px;
+  }
+  
+  section button{
+    border-radius: 30px;
+    background-color: rgb(100, 99, 93);
+    border: 0;
+    padding: 0.3em 2.2em;
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.8s ease-in-out;
+  }
+  
+  section button:hover{
+    padding: 0.4em 2.3em;
+    font-size: 22px;
+    transition: 0.8s ease-in-out;
+  }
+  
+  
+  @media(max-width: 425px){
+  
+    #feleri{
+      background-image: url(./../imgfeleri/celular1.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 55% 0;
+  
+    }
+  
+    #projetos{
+      background-image: url(./../imgfeleri/celular2.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 66% 0;
+    }
+  
+     #historia{
+      background-image: url(./../imgfeleri/celular3.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 70% 0;
+    }
+  
+     #contato{
+      background-image: url(./../imgfeleri/celular4.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 68% 0;
+    }
+  
+     #time{
+      background-image: url(./../imgfeleri/celular5.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 70% 0;
+    }
+  
+    #feleri, #projetos, #historia, #contato, #time{
+      background-size: 100%;
+      margin-bottom: 0;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #text-feleri{
+      padding-bottom: 55px;
+    }
+  
+    #text-feleri p, #text-projeto p, #text-contato p, #text-time p{
+      color: white;
+      font-size: 15px;
+      letter-spacing: 0;
+    }
+  
+    #text-historia p{
+      color: white;
+      font-size: 13px;
+      letter-spacing: 0;
+    }
+  
+    #text-feleri h1{
+      font-size: 60px;
+    }
+  
+    #text-projeto h2{
+      font-size: 45px;
+    }
+  
+    #text-contato h2{
+      font-size: 40px;
+    }
+  
+    #text-historia h2{
+      font-size: 35px;
+    }
+  
+    #text-time h2{
+      font-size: 35px;
+    }
+  
+    section button{
+      border-radius: 30px;
+      background-color: rgb(100, 99, 93);
+      border: 0;
+      padding:8px 25px;
+      font-size: 13px;
+      color: white;
+      letter-spacing: 1px;
+      transition: 0.8s ease-in-out;
+    }
+  
+    #social-icons{
+      font-size: 20px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding-left: 7%;
+    }
+  
+    #social-icons i:hover{
+    font-size: 26px;
+    }
+  
+  }
